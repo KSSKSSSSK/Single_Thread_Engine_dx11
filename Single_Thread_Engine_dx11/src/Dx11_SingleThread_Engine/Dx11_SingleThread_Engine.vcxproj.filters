@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{57b55950-cab8-4c0a-9aaa-9a9ed1939486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{403a0e2c-7e6f-4a9b-a584-20e179d5dc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowUtil">
+      <UniqueIdentifier>{489bca6c-7d17-4070-91b6-b21d72fe2f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{caf3af52-7a2f-4c82-b07a-42f847636e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Math">
+      <UniqueIdentifier>{43d5b57a-2ac6-45f2-b698-41d24ff3d218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Color">
+      <UniqueIdentifier>{bb81a686-bed1-4cb1-96ea-77ee5493d07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{4c61c7f8-5184-4f8b-9287-ac9530a6a8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bindable">
+      <UniqueIdentifier>{18793da0-47ad-4efa-aa91-726be011404f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawable">
+      <UniqueIdentifier>{f1f54ed3-7f98-4440-804c-4f8ebdb3cdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjInfo">
+      <UniqueIdentifier>{1116f166-7350-42cc-84c5-446a3d5a37d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Device">
+      <UniqueIdentifier>{c3b6c9ee-c2d8-4435-a2cc-13e231032efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{212f1e54-5409-4e5b-bd2d-ede0267734fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtil\WIndowsMessageMap.cpp">
+      <Filter>WindowUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtil\KSException.cpp">
+      <Filter>WindowUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Color\Color.cpp">
+      <Filter>Util\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\Bindable.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\Topology.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\IndexBuffer.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\InputLayout.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\Drawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\Box.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\DrawableBase.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\BindVertexBuffer.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="objInfo\Vertex.cpp">
+      <Filter>ObjInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\PixelShader.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\VertexShader.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\BindConstantBuffer.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Bindable\TransformCbuf.cpp">
+      <Filter>Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Device\Enumeration.cpp">
+      <Filter>Graphics\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Timer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Write.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Input.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ScreenDebug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowUtil\WIndowsMessageMap.h">
+      <Filter>WindowUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KSWin.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtil\KSException.h">
+      <Filter>WindowUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtil\commin.h">
+      <Filter>WindowUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Color\Color.h">
+      <Filter>Util\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\Bindable.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\Topology.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\IndexBuffer.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\InputLayout.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\Drawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\Box.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\DrawableBase.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\BindVertexBuffer.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="objInfo\Vertex.h">
+      <Filter>ObjInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\PixelShader.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\VertexShader.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\BindConstantBuffer.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable\TransformCbuf.h">
+      <Filter>Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Device\Enumeration.h">
+      <Filter>Graphics\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="common\define.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Write.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\macro.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Input.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ScreenDebug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dx11_SingleThread_Engine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
